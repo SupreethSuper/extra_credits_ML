@@ -1,0 +1,55 @@
+# ERROR: No extended dataflow license exists
+# do {C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/run_rom1p.do}
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# Compile ROM1PORT
+# vlog -work work +incdir+C:/Users/supre/Documents/ML\ proj/extra_credits_ML/extra\ credits/codes {C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/ROM1PORT.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:29:47 on May 02,2026
+# vlog -reportprogress 300 -work work "+incdir+C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes" C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/ROM1PORT.v 
+# -- Compiling module ROM1PORT
+# 
+# Top level modules:
+# 	ROM1PORT
+# End time: 00:29:47 on May 02,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# Load simulation with Altera megafunction library
+# vsim -L altera_mf_ver work.ROM1PORT
+# vsim -L altera_mf_ver work.ROM1PORT 
+# Start time: 00:29:47 on May 02,2026
+# Loading work.ROM1PORT
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+add wave -position end  sim:/ROM1PORT/aclr
+add wave -position end  sim:/ROM1PORT/address
+add wave -position end  sim:/ROM1PORT/clock
+add wave -position end  sim:/ROM1PORT/rden
+add wave -position end  sim:/ROM1PORT/q
+add wave -position end  sim:/ROM1PORT/sub_wire0
+run -all
+restart
+run -all
+# Break key hit
+# Break key hit
+
+
+force /ROM1PORT/aclr 0
+force /ROM1PORT/rden 1
+force /ROM1PORT/clock 0 0, 1 50 -repeat 100
+force /ROM1PORT/address 0000000000
+run 300
+force /ROM1PORT/address 0000000001
+run 200
+# End time: 00:43:15 on May 02,2026, Elapsed time: 0:13:28
+# Errors: 0, Warnings: 0

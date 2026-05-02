@@ -1,317 +1,59 @@
-# Compile of modelf.sv was successful.
-# Compile of test_modelf.sv was successful.
-# Compile of Dreg.sv was successful.
-# Compile of test_counter.sv was successful.
-# Compile of modelo.sv failed with 9 errors.
-# Compile of test_modelo.sv was successful.
-# 6 compiles, 1 failed with 9 errors.
-# Compile of modelf.sv was successful.
-# Compile of test_modelf.sv was successful.
-# Compile of Dreg.sv was successful.
-# Compile of test_counter.sv was successful.
-# Compile of modelo.sv was successful with warnings.
-# Compile of test_modelo.sv was successful.
-# 6 compiles, 0 failed with no errors.
-vsim -gui work.test_Modelo
-# vsim -gui work.test_Modelo 
-# Start time: 22:37:38 on May 01,2026
-# Loading sv_std.std
-# Loading work.test_Modelo
-# Loading work.Modelo
-# Loading work.Modelf
-# Loading work.Counter
-# Loading work.DReg
-# ** Error: (vsim-3063) Port 'Y' not found in the connected module (6th connection).
-#    Time: 0 ps  Iteration: 0  Instance: /test_Modelo/Ml File: C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/test_modelo.sv Line: 18
-# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'Ypred'. The port definition is at: C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/modelf.sv(5).
-#    Time: 0 ps  Iteration: 0  Instance: /test_Modelo/Ml/Ml File: C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/modelo.sv Line: 26
-# Error loading design
-# End time: 22:37:38 on May 01,2026, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 6
-# Compile of modelf.sv was successful.
-# Compile of test_modelf.sv was successful.
-# Compile of Dreg.sv was successful.
-# Compile of test_counter.sv was successful.
-# Compile of modelo.sv was successful with warnings.
-# Compile of test_modelo.sv was successful.
-# 6 compiles, 0 failed with no errors.
-# Compile of modelf.sv was successful.
-# Compile of test_modelf.sv was successful.
-# Compile of Dreg.sv was successful.
-# Compile of test_counter.sv was successful.
-# Compile of modelo.sv was successful with warnings.
-# Compile of test_modelo.sv was successful.
-# 6 compiles, 0 failed with no errors.
-vsim -gui work.test_Modelo
-# vsim -gui work.test_Modelo 
-# Start time: 22:42:35 on May 01,2026
-# Loading sv_std.std
-# Loading work.test_Modelo
-# Loading work.Modelo
-# Loading work.Modelf
-# Loading work.Counter
-# Loading work.DReg
-# ** Error: (vsim-3043) Unresolved reference to 'Y'.
-#    Time: 0 ps  Iteration: 0  Instance: /test_Modelo/Ml File: C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/modelo.sv Line: 38
-# Error loading design
-# End time: 22:42:35 on May 01,2026, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 3
-vsim -gui work.test_Modelo
-# vsim -gui work.test_Modelo 
-# Start time: 22:43:06 on May 01,2026
-# Loading sv_std.std
-# Loading work.test_Modelo
-# Loading work.Modelo
-# Loading work.Modelf
-# Loading work.Counter
-# Loading work.DReg
-# ** Error: (vsim-3043) Unresolved reference to 'Y'.
-#    Time: 0 ps  Iteration: 0  Instance: /test_Modelo/Ml File: C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/modelo.sv Line: 38
-# Error loading design
-# End time: 22:43:06 on May 01,2026, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 1
-# Compile of modelf.sv was successful.
-# Compile of test_modelf.sv was successful.
-# Compile of Dreg.sv was successful.
-# Compile of test_counter.sv was successful.
-# Compile of modelo.sv was successful with warnings.
-# Compile of test_modelo.sv was successful.
-# 6 compiles, 0 failed with no errors.
-vsim -gui work.test_Modelo
-# vsim -gui work.test_Modelo 
-# Start time: 22:48:07 on May 01,2026
-# Loading sv_std.std
-# Loading work.test_Modelo
-# Loading work.Modelo
-# Loading work.Modelf
-# Loading work.Counter
-# Loading work.DReg
+vsim lpm_ver.lpm_counter
+# vsim lpm_ver.lpm_counter 
+# Start time: 00:00:25 on May 02,2026
+# Loading lpm_ver.lpm_counter
 # WARNING: No extended dataflow license exists
-add wave -position end  sim:/test_Modelo/Nb
-add wave -position end  sim:/test_Modelo/Nobs
-add wave -position end  sim:/test_Modelo/Nf
-add wave -position end  sim:/test_Modelo/Nbc
-add wave -position end  sim:/test_Modelo/X
-add wave -position end  sim:/test_Modelo/W
-add wave -position end  sim:/test_Modelo/b
-add wave -position end  sim:/test_Modelo/Y
-add wave -position end  sim:/test_Modelo/clk
-add wave -position end  sim:/test_Modelo/reset
-add wave -position end  sim:/test_Modelo/clkout
-add wave -position end  sim:/test_Modelo/i
+add wave -position end  sim:/lpm_counter/lpm_width
+add wave -position end  sim:/lpm_counter/lpm_direction
+add wave -position end  sim:/lpm_counter/lpm_modulus
+add wave -position end  sim:/lpm_counter/lpm_avalue
+add wave -position end  sim:/lpm_counter/lpm_svalue
+add wave -position end  sim:/lpm_counter/lpm_pvalue
+add wave -position end  sim:/lpm_counter/lpm_port_updown
+add wave -position end  sim:/lpm_counter/lpm_type
+add wave -position end  sim:/lpm_counter/lpm_hint
+add wave -position end  sim:/lpm_counter/clock
+add wave -position end  sim:/lpm_counter/clk_en
+add wave -position end  sim:/lpm_counter/cnt_en
+add wave -position end  sim:/lpm_counter/updown
+add wave -position end  sim:/lpm_counter/aclr
+add wave -position end  sim:/lpm_counter/aset
+add wave -position end  sim:/lpm_counter/aload
+add wave -position end  sim:/lpm_counter/sclr
+add wave -position end  sim:/lpm_counter/sset
+add wave -position end  sim:/lpm_counter/sload
+add wave -position end  sim:/lpm_counter/data
+add wave -position end  sim:/lpm_counter/cin
+add wave -position end  sim:/lpm_counter/q
+add wave -position end  sim:/lpm_counter/cout
+add wave -position end  sim:/lpm_counter/eq
+add wave -position end  sim:/lpm_counter/tmp_count
+add wave -position end  sim:/lpm_counter/adata
+add wave -position end  sim:/lpm_counter/use_adata
+add wave -position end  sim:/lpm_counter/tmp_updown
+add wave -position end  sim:/lpm_counter/tmp_modulus
+add wave -position end  sim:/lpm_counter/max_modulus
+add wave -position end  sim:/lpm_counter/svalue
+add wave -position end  sim:/lpm_counter/avalue
+add wave -position end  sim:/lpm_counter/pvalue
+add wave -position end  sim:/lpm_counter/w_updown
+add wave -position end  sim:/lpm_counter/final_count
+add wave -position end  sim:/lpm_counter/i
+add wave -position end  sim:/lpm_counter/updown_z
+add wave -position end  sim:/lpm_counter/i_clk_en
+add wave -position end  sim:/lpm_counter/i_cnt_en
+add wave -position end  sim:/lpm_counter/i_aclr
+add wave -position end  sim:/lpm_counter/i_aset
+add wave -position end  sim:/lpm_counter/i_aload
+add wave -position end  sim:/lpm_counter/i_sclr
+add wave -position end  sim:/lpm_counter/i_sset
+add wave -position end  sim:/lpm_counter/i_sload
+add wave -position end  sim:/lpm_counter/i_cin
+add wave -position end  sim:/lpm_counter/i_updown
 run -all
-# Y = '{1, 0, 0, 0, 0, 0, 0}
-# Y = '{1, -1, 0, 0, 0, 0, 0}
-# Y = '{1, -1, -1, 0, 0, 0, 0}
-# Y = '{1, -1, -1, -1, 0, 0, 0}
-# Y = '{1, -1, -1, -1, -1, 0, 0}
-# Y = '{1, -1, -1, -1, -1, -1, 0}
-# Y = '{1, -1, -1, -1, -1, -1, -1}
+# Break key hit
+# Break key hit
+restart
 quit -sim
-# End time: 22:54:19 on May 01,2026, Elapsed time: 0:06:12
-# Errors: 0, Warnings: 2
-# Compile of modelf.sv was successful.
-# Compile of test_modelf.sv was successful.
-# Compile of Dreg.sv was successful.
-# Compile of test_counter.sv was successful.
-# Compile of modelo.sv was successful with warnings.
-# Compile of test_modelo.sv was successful.
-# 6 compiles, 0 failed with no errors.
-# Load canceled
-# Compile of modelf.sv was successful.
-# Compile of test_modelf.sv was successful.
-# Compile of Dreg.sv was successful.
-# Compile of test_counter.sv was successful.
-# Compile of modelo.sv was successful with warnings.
-# Compile of test_modelo.sv was successful.
-# Compile of modelc.sv was successful.
-# Compile of test_modelc.sv was successful.
-# 8 compiles, 0 failed with no errors.
-vsim -gui work.test_Modelc
-# vsim -gui work.test_Modelc 
-# Start time: 22:55:12 on May 01,2026
-# Loading sv_std.std
-# Loading work.test_Modelc
-# Loading work.Modelc
-# Loading work.Modelo
-# Loading work.Modelf
-# Loading work.Counter
-# Loading work.DReg
-# WARNING: No extended dataflow license exists
-add wave -position end  sim:/test_Modelc/Nb
-add wave -position end  sim:/test_Modelc/Nobs
-add wave -position end  sim:/test_Modelc/Nf
-add wave -position end  sim:/test_Modelc/Nc
-add wave -position end  sim:/test_Modelc/Nbco
-add wave -position end  sim:/test_Modelc/Nbcc
-add wave -position end  sim:/test_Modelc/i
-add wave -position end  sim:/test_Modelc/j
-add wave -position end  sim:/test_Modelc/X
-add wave -position end  sim:/test_Modelc/W
-add wave -position end  sim:/test_Modelc/Y
-add wave -position end  sim:/test_Modelc/clk
-add wave -position end  sim:/test_Modelc/reset
-add wave -position end  sim:/test_Modelc/clkoutc
-run -all
-# test modelC Y='{'{1, -1, -1, -1, -1, -1, -1}, '{1, 1, 1, 1, 1, 1, 1}, '{-1, 1, -1, -1, 1, 1, -1}}
-quit -sim
-# End time: 22:55:31 on May 01,2026, Elapsed time: 0:00:19
-# Errors: 0, Warnings: 4
-# Compile of modelf.sv was successful.
-# Compile of test_modelf.sv was successful.
-# Compile of Dreg.sv was successful.
-# Compile of test_counter.sv was successful.
-# Compile of modelo.sv was successful with warnings.
-# Compile of test_modelo.sv was successful.
-# Compile of modelc.sv was successful.
-# Compile of test_modelc.sv was successful.
-# 8 compiles, 0 failed with no errors.
-# Load canceled
-# Compile of modelf.sv was successful.
-# Compile of test_modelf.sv was successful.
-# Compile of Dreg.sv was successful.
-# Compile of test_counter.sv was successful.
-# Compile of modelo.sv was successful with warnings.
-# Compile of test_modelo.sv was successful.
-# Compile of modelc.sv was successful.
-# Compile of test_modelc.sv was successful.
-# Compile of modelct.sv was successful.
-# Compile of test_modelct.sv was successful.
-# 10 compiles, 0 failed with no errors.
-vsim -gui work.test_Modelct
-# vsim -gui work.test_Modelct 
-# Start time: 23:14:52 on May 01,2026
-# Loading sv_std.std
-# Loading work.test_Modelct
-# Loading work.Modelct
-# Loading work.Modelo
-# Loading work.Modelf
-# Loading work.Counter
-# Loading work.DReg
-# WARNING: No extended dataflow license exists
-add wave -position end  sim:/test_Modelct/Nb
-add wave -position end  sim:/test_Modelct/Nobs
-add wave -position end  sim:/test_Modelct/Nf
-add wave -position end  sim:/test_Modelct/Nc
-add wave -position end  sim:/test_Modelct/Nbco
-add wave -position end  sim:/test_Modelct/Nbcc
-add wave -position end  sim:/test_Modelct/i
-add wave -position end  sim:/test_Modelct/j
-add wave -position end  sim:/test_Modelct/X
-add wave -position end  sim:/test_Modelct/W
-add wave -position end  sim:/test_Modelct/Y
-add wave -position end  sim:/test_Modelct/Ypred
-add wave -position end  sim:/test_Modelct/dW
-add wave -position end  sim:/test_Modelct/clk
-add wave -position end  sim:/test_Modelct/reset
-add wave -position end  sim:/test_Modelct/clkoutc
-add wave -position end  sim:/test_Modelct/etashift
-add wave -position end  sim:/test_Modelct/TotalError
-run -all
-# test modelCt Y '{'{1, 1, -1, -1, -1, -1, 1}, '{-1, -1, 1, 1, -1, -1, -1}, '{-1, -1, -1, -1, 1, 1, -1}} 
-#  Ypred '{'{1, -1, -1, -1, -1, -1, -1}, '{1, 1, 1, 1, 1, 1, 1}, '{-1, 1, -1, -1, 1, 1, -1}}
-quit -sim
-# End time: 23:15:19 on May 01,2026, Elapsed time: 0:00:27
-# Errors: 0, Warnings: 4
-# Compile of modelf.sv was successful.
-# Compile of test_modelf.sv was successful.
-# Compile of Dreg.sv was successful.
-# Compile of test_counter.sv was successful.
-# Compile of modelo.sv was successful with warnings.
-# Compile of test_modelo.sv was successful.
-# Compile of modelc.sv was successful.
-# Compile of test_modelc.sv was successful.
-# Compile of modelct.sv was successful.
-# Compile of test_modelct.sv was successful.
-# Compile of test_train.sv was successful.
-# Compile of train.sv was successful.
-# 12 compiles, 0 failed with no errors.
-vsim -gui work.test_Train
-# vsim -gui work.test_Train 
-# Start time: 23:20:37 on May 01,2026
-# Loading sv_std.std
-# Loading work.test_Train
-# Loading work.train
-# Loading work.Modelct
-# Loading work.Modelo
-# Loading work.Modelf
-# Loading work.Counter
-# Loading work.DReg
-# WARNING: No extended dataflow license exists
-add wave -position end  sim:/test_Train/Nb
-add wave -position end  sim:/test_Train/Nobs
-add wave -position end  sim:/test_Train/Nf
-add wave -position end  sim:/test_Train/Nc
-add wave -position end  sim:/test_Train/Nbco
-add wave -position end  sim:/test_Train/Nbcc
-add wave -position end  sim:/test_Train/Nepochs
-add wave -position end  sim:/test_Train/Zero
-add wave -position end  sim:/test_Train/One
-add wave -position end  sim:/test_Train/Epoch
-add wave -position end  sim:/test_Train/clk
-add wave -position end  sim:/test_Train/reset
-add wave -position end  sim:/test_Train/enable
-add wave -position end  sim:/test_Train/X
-add wave -position end  sim:/test_Train/Y
-add wave -position end  sim:/test_Train/etashift
-add wave -position end  sim:/test_Train/W
-add wave -position end  sim:/test_Train/TotalError
-add wave -position end  sim:/test_Train/clkoutc
-add wave -position end  sim:/test_Train/clkoutt
-run -all
-# Epoch   3 clkoutc 1 clkoutt 0 
-#  W '{'{0, -5, -2, 2}, '{-2, -5, 2, 4}, '{-9, -3, -15, 11}}
-#  TotalError   7 
-# Epoch   6 clkoutc 1 clkoutt 0 
-#  W '{'{3, -4, 1, -1}, '{-2, -3, 2, 4}, '{-7, 3, -14, 9}}
-#  TotalError   7 
-# Epoch   9 clkoutc 1 clkoutt 0 
-#  W '{'{5, -7, -2, -3}, '{-3, -3, 4, 5}, '{-5, 11, -12, 7}}
-#  TotalError   6 
-# Epoch  12 clkoutc 1 clkoutt 0 
-#  W '{'{5, -7, -2, -3}, '{-3, -3, 4, 5}, '{-5, 11, -12, 7}}
-#  TotalError   5 
-# Epoch  15 clkoutc 1 clkoutt 0 
-#  W '{'{10, -3, -4, -8}, '{-7, -1, 2, 9}, '{-5, 15, -10, 7}}
-#  TotalError   3 
-# Epoch  18 clkoutc 1 clkoutt 0 
-#  W '{'{10, -3, -4, -8}, '{-7, -1, 2, 9}, '{-5, 15, -10, 7}}
-#  TotalError   3 
-# Epoch  21 clkoutc 1 clkoutt 0 
-#  W '{'{10, -3, -4, -8}, '{-8, 0, 5, 10}, '{-9, 7, -10, 11}}
-#  TotalError   6 
-# Epoch  24 clkoutc 1 clkoutt 0 
-#  W '{'{10, -3, -4, -8}, '{-8, 0, 5, 10}, '{-9, 7, -10, 11}}
-#  TotalError   2 
-# Epoch  27 clkoutc 1 clkoutt 0 
-#  W '{'{10, -3, -4, -8}, '{-8, 0, 5, 10}, '{-9, 7, -10, 11}}
-#  TotalError   2 
-# Epoch  30 clkoutc 1 clkoutt 0 
-#  W '{'{10, -3, -4, -8}, '{-8, 0, 5, 10}, '{-9, 7, -10, 11}}
-#  TotalError   3 
-# Epoch  33 clkoutc 1 clkoutt 0 
-#  W '{'{10, -3, -4, -8}, '{-8, 0, 5, 10}, '{-9, 7, -10, 11}}
-#  TotalError   3 
-# Epoch  36 clkoutc 1 clkoutt 0 
-#  W '{'{10, -3, -4, -8}, '{-12, 1, 7, 14}, '{-11, 11, -6, 13}}
-#  TotalError   1 
-# Epoch  38 clkoutc 1 clkoutt 0 
-#  W '{'{10, -3, -4, -8}, '{-12, 1, 7, 14}, '{-14, 5, -6, 16}}
-#  TotalError   2 
-# Epoch  41 clkoutc 1 clkoutt 0 
-#  W '{'{10, -3, -4, -8}, '{-12, 1, 7, 14}, '{-14, 5, -6, 16}}
-#  TotalError   1 
-# Epoch  44 clkoutc 1 clkoutt 0 
-#  W '{'{10, -3, -4, -8}, '{-12, 1, 7, 14}, '{-14, 5, -6, 16}}
-#  TotalError   1 
-# Epoch  46 clkoutc 1 clkoutt 0 
-#  W '{'{10, -3, -4, -8}, '{-12, 1, 7, 14}, '{-14, 5, -6, 16}}
-#  TotalError   2 
-# Epoch  49 clkoutc 1 clkoutt 0 
-#  W '{'{10, -3, -4, -8}, '{-12, 1, 7, 14}, '{-14, 5, -6, 16}}
-#  TotalError   1 
-# Epoch  52 clkoutc 1 clkoutt 0 
-#  W '{'{10, -3, -4, -8}, '{-12, 1, 7, 14}, '{-14, 5, -6, 16}}
-#  TotalError   0 
-# End time: 23:20:56 on May 01,2026, Elapsed time: 0:00:19
-# Errors: 0, Warnings: 3
+# End time: 00:02:16 on May 02,2026, Elapsed time: 0:01:51
+# Errors: 0, Warnings: 1

@@ -1,0 +1,36 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/simulation/questa
+vROM1PORT
+!s110 1777705429
+!i10b 1
+!s100 b]J3F=6:Vljm;NC_Ec]m`0
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+I@YOR`RIWH7;2>ezkk4MDm1
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1777704548
+8C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/ROM1PORT.v
+FC:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/ROM1PORT.v
+!i122 0
+L0 40 66
+OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1777705429.000000
+!s107 C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/ROM1PORT.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes|C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/ROM1PORT.v|
+!i113 1
+o-work work
+!s92 -work work {+incdir+C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes}
+tCvgOpt 0
+n@r@o@m1@p@o@r@t

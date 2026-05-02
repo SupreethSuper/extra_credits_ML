@@ -1,0 +1,261 @@
+# Reading pref.tcl
+# ERROR: No extended dataflow license exists
+# do Rom1p_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog  -work work +incdir+C:/Users/supre/Documents/ML\ proj/extra_credits_ML/extra\ credits/codes {C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/ROM1PORT.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:03:49 on May 02,2026
+# vlog -reportprogress 300 -work work "+incdir+C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes" C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/ROM1PORT.v 
+# -- Compiling module ROM1PORT
+# 
+# Top level modules:
+# 	ROM1PORT
+# End time: 00:03:49 on May 02,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim -gui -l msim_transcript rtl_work.ROM1PORT
+# vsim -gui -l msim_transcript rtl_work.ROM1PORT 
+# Start time: 00:04:12 on May 02,2026
+# Loading rtl_work.ROM1PORT
+# ** Error: (vsim-3033) Instantiation of 'altsyncram' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /ROM1PORT File: C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/ROM1PORT.v Line: 65
+#         Searched libraries:
+#             C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/simulation/questa/rtl_work
+# Error loading design
+# End time: 00:04:12 on May 02,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vsim -gui -l msim_transcript rtl_work.ROM1PORT
+# vsim -gui -l msim_transcript rtl_work.ROM1PORT 
+# Start time: 00:04:24 on May 02,2026
+# Loading rtl_work.ROM1PORT
+# ** Error: (vsim-3033) Instantiation of 'altsyncram' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /ROM1PORT File: C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/ROM1PORT.v Line: 65
+#         Searched libraries:
+#             C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/simulation/questa/rtl_work
+# Error loading design
+# End time: 00:04:24 on May 02,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vsim -gui -l msim_transcript work.ROM1PORT
+# vsim -gui -l msim_transcript work.ROM1PORT 
+# Start time: 00:04:45 on May 02,2026
+# Loading work.ROM1PORT
+# ** Error: (vsim-3033) Instantiation of 'altsyncram' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /ROM1PORT File: C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/ROM1PORT.v Line: 65
+#         Searched libraries:
+#             C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/simulation/questa/rtl_work
+# Error loading design
+# End time: 00:04:46 on May 02,2026, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vsim -gui -l msim_transcript lpm_ver.lpm_counter
+# vsim -gui -l msim_transcript lpm_ver.lpm_counter 
+# Start time: 00:05:08 on May 02,2026
+# Loading lpm_ver.lpm_counter
+vsim -gui -l msim_transcript rtl_work.ROM1PORT
+# End time: 00:05:21 on May 02,2026, Elapsed time: 0:00:13
+# Errors: 0, Warnings: 0
+# vsim -gui -l msim_transcript rtl_work.ROM1PORT 
+# Start time: 00:05:21 on May 02,2026
+# Loading rtl_work.ROM1PORT
+# ** Error: (vsim-3033) Instantiation of 'altsyncram' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /ROM1PORT File: C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/ROM1PORT.v Line: 65
+#         Searched libraries:
+#             C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/simulation/questa/rtl_work
+# Error loading design
+# End time: 00:05:21 on May 02,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vsim -gui -L altera_mf_ver -l msim_transcript work.ROM1PORT
+# vsim -gui -L altera_mf_ver -l msim_transcript work.ROM1PORT 
+# Start time: 00:06:28 on May 02,2026
+# Loading work.ROM1PORT
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# WARNING: No extended dataflow license exists
+add wave -position end  sim:/ROM1PORT/aclr
+add wave -position end  sim:/ROM1PORT/address
+add wave -position end  sim:/ROM1PORT/clock
+add wave -position end  sim:/ROM1PORT/rden
+add wave -position end  sim:/ROM1PORT/q
+add wave -position end  sim:/ROM1PORT/sub_wire0
+run -all
+vsim -gui -L altera_mf_ver -l msim_transcript lpm_ver.lpm_counter
+# End time: 00:08:25 on May 02,2026, Elapsed time: 0:01:57
+# Errors: 0, Warnings: 0
+# vsim -gui -L altera_mf_ver -l msim_transcript lpm_ver.lpm_counter 
+# Start time: 00:08:25 on May 02,2026
+# Loading lpm_ver.lpm_counter
+# WARNING: No extended dataflow license exists
+add wave -position end  sim:/lpm_counter/lpm_width
+add wave -position end  sim:/lpm_counter/lpm_direction
+add wave -position end  sim:/lpm_counter/lpm_modulus
+add wave -position end  sim:/lpm_counter/lpm_avalue
+add wave -position end  sim:/lpm_counter/lpm_svalue
+add wave -position end  sim:/lpm_counter/lpm_pvalue
+add wave -position end  sim:/lpm_counter/lpm_port_updown
+add wave -position end  sim:/lpm_counter/lpm_type
+add wave -position end  sim:/lpm_counter/lpm_hint
+add wave -position end  sim:/lpm_counter/clock
+add wave -position end  sim:/lpm_counter/clk_en
+add wave -position end  sim:/lpm_counter/cnt_en
+add wave -position end  sim:/lpm_counter/updown
+add wave -position end  sim:/lpm_counter/aclr
+add wave -position end  sim:/lpm_counter/aset
+add wave -position end  sim:/lpm_counter/aload
+add wave -position end  sim:/lpm_counter/sclr
+add wave -position end  sim:/lpm_counter/sset
+add wave -position end  sim:/lpm_counter/sload
+add wave -position end  sim:/lpm_counter/data
+add wave -position end  sim:/lpm_counter/cin
+add wave -position end  sim:/lpm_counter/q
+add wave -position end  sim:/lpm_counter/cout
+add wave -position end  sim:/lpm_counter/eq
+add wave -position end  sim:/lpm_counter/tmp_count
+add wave -position end  sim:/lpm_counter/adata
+add wave -position end  sim:/lpm_counter/use_adata
+add wave -position end  sim:/lpm_counter/tmp_updown
+add wave -position end  sim:/lpm_counter/tmp_modulus
+add wave -position end  sim:/lpm_counter/max_modulus
+add wave -position end  sim:/lpm_counter/svalue
+add wave -position end  sim:/lpm_counter/avalue
+add wave -position end  sim:/lpm_counter/pvalue
+add wave -position end  sim:/lpm_counter/w_updown
+add wave -position end  sim:/lpm_counter/final_count
+add wave -position end  sim:/lpm_counter/i
+add wave -position end  sim:/lpm_counter/updown_z
+add wave -position end  sim:/lpm_counter/i_clk_en
+add wave -position end  sim:/lpm_counter/i_cnt_en
+add wave -position end  sim:/lpm_counter/i_aclr
+add wave -position end  sim:/lpm_counter/i_aset
+add wave -position end  sim:/lpm_counter/i_aload
+add wave -position end  sim:/lpm_counter/i_sclr
+add wave -position end  sim:/lpm_counter/i_sset
+add wave -position end  sim:/lpm_counter/i_sload
+add wave -position end  sim:/lpm_counter/i_cin
+add wave -position end  sim:/lpm_counter/i_updown
+vsim -gui -L altera_mf_ver -l msim_transcript rtl_work.ROM1PORT
+# End time: 00:08:59 on May 02,2026, Elapsed time: 0:00:34
+# Errors: 0, Warnings: 0
+# vsim -gui -L altera_mf_ver -l msim_transcript rtl_work.ROM1PORT 
+# Start time: 00:08:59 on May 02,2026
+# Loading rtl_work.ROM1PORT
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# WARNING: No extended dataflow license exists
+add wave -position end  sim:/ROM1PORT/aclr
+add wave -position end  sim:/ROM1PORT/address
+add wave -position end  sim:/ROM1PORT/clock
+add wave -position end  sim:/ROM1PORT/rden
+add wave -position end  sim:/ROM1PORT/q
+add wave -position end  sim:/ROM1PORT/sub_wire0
+run -all
+# Break key hit
+restart
+vsim -gui -L altera_mf_ver -l msim_transcript lpm_ver.lpm_counter
+# End time: 00:11:23 on May 02,2026, Elapsed time: 0:02:24
+# Errors: 0, Warnings: 0
+# vsim -gui -L altera_mf_ver -l msim_transcript lpm_ver.lpm_counter 
+# Start time: 00:11:23 on May 02,2026
+# Loading lpm_ver.lpm_counter
+# WARNING: No extended dataflow license exists
+vsim -gui -L altera_mf_ver -l msim_transcript rtl_work.ROM1PORT
+# End time: 00:14:39 on May 02,2026, Elapsed time: 0:03:16
+# Errors: 0, Warnings: 0
+# vsim -gui -L altera_mf_ver -l msim_transcript rtl_work.ROM1PORT 
+# Start time: 00:14:39 on May 02,2026
+# Loading rtl_work.ROM1PORT
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# WARNING: No extended dataflow license exists
+add wave -position end  sim:/ROM1PORT/aclr
+add wave -position end  sim:/ROM1PORT/address
+add wave -position end  sim:/ROM1PORT/clock
+add wave -position end  sim:/ROM1PORT/rden
+add wave -position end  sim:/ROM1PORT/q
+add wave -position end  sim:/ROM1PORT/sub_wire0
+run -all
+# Break key hit
+vsim -gui -L altera_mf_ver -l msim_transcript work.ROM1PORT
+# End time: 00:15:38 on May 02,2026, Elapsed time: 0:00:59
+# Errors: 0, Warnings: 0
+# vsim -gui -L altera_mf_ver -l msim_transcript work.ROM1PORT 
+# Start time: 00:15:38 on May 02,2026
+# Loading work.ROM1PORT
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# WARNING: No extended dataflow license exists
+add wave -position end  sim:/ROM1PORT/aclr
+add wave -position end  sim:/ROM1PORT/address
+add wave -position end  sim:/ROM1PORT/clock
+add wave -position end  sim:/ROM1PORT/rden
+add wave -position end  sim:/ROM1PORT/q
+add wave -position end  sim:/ROM1PORT/sub_wire0
+run -all
+run -continue
+run -all
+# Break key hit
+vsim -gui -L altera_mf_ver -L rtl_work -l msim_transcript rtl_work.ROM1PORT
+# End time: 00:16:54 on May 02,2026, Elapsed time: 0:01:16
+# Errors: 0, Warnings: 0
+# vsim -gui -L altera_mf_ver -L rtl_work -l msim_transcript rtl_work.ROM1PORT 
+# Start time: 00:16:55 on May 02,2026
+# Loading rtl_work.ROM1PORT
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# WARNING: No extended dataflow license exists
+add wave -position end  sim:/ROM1PORT/aclr
+add wave -position end  sim:/ROM1PORT/address
+add wave -position end  sim:/ROM1PORT/clock
+add wave -position end  sim:/ROM1PORT/rden
+add wave -position end  sim:/ROM1PORT/q
+add wave -position end  sim:/ROM1PORT/sub_wire0
+run -all
+run -all
+vsim -L altera_mf_ver work.ROM1PORT
+# End time: 00:28:27 on May 02,2026, Elapsed time: 0:11:32
+# Errors: 0, Warnings: 0
+# vsim -L altera_mf_ver work.ROM1PORT 
+# Start time: 00:28:27 on May 02,2026
+# Loading work.ROM1PORT
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# WARNING: No extended dataflow license exists
+add wave -position end  sim:/ROM1PORT/aclr
+add wave -position end  sim:/ROM1PORT/address
+add wave -position end  sim:/ROM1PORT/clock
+add wave -position end  sim:/ROM1PORT/rden
+add wave -position end  sim:/ROM1PORT/q
+add wave -position end  sim:/ROM1PORT/sub_wire0
+run -all
+vsim -L altera_mf_ver work.ROM1PORT
+# End time: 00:28:57 on May 02,2026, Elapsed time: 0:00:30
+# Errors: 0, Warnings: 0
+# vsim -L altera_mf_ver work.ROM1PORT 
+# Start time: 00:28:57 on May 02,2026
+# Loading work.ROM1PORT
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# WARNING: No extended dataflow license exists
+# End time: 00:29:03 on May 02,2026, Elapsed time: 0:00:06
+# Errors: 0, Warnings: 0
