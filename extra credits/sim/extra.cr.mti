@@ -5,11 +5,33 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	test_Modelf
 
+} {} {}} {C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/Dreg.sv} {1 {vlog -work work -sv -stats=none {C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/Dreg.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DReg
+-- Compiling module Counter
+
+Top level modules:
+	Counter
+
+} {} {}} {C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/test_modelo.sv} {1 {vlog -work work -sv -stats=none {C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/test_modelo.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module test_Modelo
+
+Top level modules:
+	test_Modelo
+
 } {} {}} {C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/modelf.sv} {1 {vlog -work work -sv -stats=none {C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/modelf.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module Modelf
 
 Top level modules:
 	Modelf
+
+} {} {}} {C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/test_counter.sv} {1 {vlog -work work -sv -stats=none {C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/test_counter.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module test_counter
+
+Top level modules:
+	test_counter
 
 } {} {}}

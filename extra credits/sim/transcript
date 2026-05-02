@@ -1,40 +1,159 @@
 # Compile of modelf.sv was successful.
 # Compile of test_modelf.sv was successful.
-# Compile of Dreg.sv failed with 10 errors.
-# Compile of test_counter.sv failed with 4 errors.
-# 4 compiles, 2 failed with 14 errors.
+# Compile of Dreg.sv was successful.
+# Compile of test_counter.sv was successful.
+# Compile of modelo.sv failed with 9 errors.
+# Compile of test_modelo.sv was successful.
+# 6 compiles, 1 failed with 9 errors.
 # Compile of modelf.sv was successful.
 # Compile of test_modelf.sv was successful.
 # Compile of Dreg.sv was successful.
 # Compile of test_counter.sv was successful.
-# 4 compiles, 0 failed with no errors.
-vsim -gui work.test_counter
-# vsim -gui work.test_counter 
-# Start time: 21:59:09 on May 01,2026
+# Compile of modelo.sv was successful with warnings.
+# Compile of test_modelo.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.test_Modelo
+# vsim -gui work.test_Modelo 
+# Start time: 22:37:38 on May 01,2026
 # Loading sv_std.std
-# Loading work.test_counter
+# Loading work.test_Modelo
+# Loading work.Modelo
+# Loading work.Modelf
+# Loading work.Counter
+# Loading work.DReg
+# ** Error: (vsim-3063) Port 'Y' not found in the connected module (6th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /test_Modelo/Ml File: C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/test_modelo.sv Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'Ypred'. The port definition is at: C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/modelf.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /test_Modelo/Ml/Ml File: C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/modelo.sv Line: 26
+# Error loading design
+# End time: 22:37:38 on May 01,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 6
+# Compile of modelf.sv was successful.
+# Compile of test_modelf.sv was successful.
+# Compile of Dreg.sv was successful.
+# Compile of test_counter.sv was successful.
+# Compile of modelo.sv was successful with warnings.
+# Compile of test_modelo.sv was successful.
+# 6 compiles, 0 failed with no errors.
+# Compile of modelf.sv was successful.
+# Compile of test_modelf.sv was successful.
+# Compile of Dreg.sv was successful.
+# Compile of test_counter.sv was successful.
+# Compile of modelo.sv was successful with warnings.
+# Compile of test_modelo.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.test_Modelo
+# vsim -gui work.test_Modelo 
+# Start time: 22:42:35 on May 01,2026
+# Loading sv_std.std
+# Loading work.test_Modelo
+# Loading work.Modelo
+# Loading work.Modelf
+# Loading work.Counter
+# Loading work.DReg
+# ** Error: (vsim-3043) Unresolved reference to 'Y'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_Modelo/Ml File: C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/modelo.sv Line: 38
+# Error loading design
+# End time: 22:42:35 on May 01,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 3
+vsim -gui work.test_Modelo
+# vsim -gui work.test_Modelo 
+# Start time: 22:43:06 on May 01,2026
+# Loading sv_std.std
+# Loading work.test_Modelo
+# Loading work.Modelo
+# Loading work.Modelf
+# Loading work.Counter
+# Loading work.DReg
+# ** Error: (vsim-3043) Unresolved reference to 'Y'.
+#    Time: 0 ps  Iteration: 0  Instance: /test_Modelo/Ml File: C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/modelo.sv Line: 38
+# Error loading design
+# End time: 22:43:06 on May 01,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# Compile of modelf.sv was successful.
+# Compile of test_modelf.sv was successful.
+# Compile of Dreg.sv was successful.
+# Compile of test_counter.sv was successful.
+# Compile of modelo.sv was successful with warnings.
+# Compile of test_modelo.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.test_Modelo
+# vsim -gui work.test_Modelo 
+# Start time: 22:48:07 on May 01,2026
+# Loading sv_std.std
+# Loading work.test_Modelo
+# Loading work.Modelo
+# Loading work.Modelf
 # Loading work.Counter
 # Loading work.DReg
 # WARNING: No extended dataflow license exists
-add wave -position end  sim:/test_counter/Nbc
-add wave -position end  sim:/test_counter/clk
-add wave -position end  sim:/test_counter/reset
-add wave -position end  sim:/test_counter/MaxCnt
-add wave -position end  sim:/test_counter/Count
-add wave -position end  sim:/test_counter/clkout
+add wave -position end  sim:/test_Modelo/Nb
+add wave -position end  sim:/test_Modelo/Nobs
+add wave -position end  sim:/test_Modelo/Nf
+add wave -position end  sim:/test_Modelo/Nbc
+add wave -position end  sim:/test_Modelo/X
+add wave -position end  sim:/test_Modelo/W
+add wave -position end  sim:/test_Modelo/b
+add wave -position end  sim:/test_Modelo/Y
+add wave -position end  sim:/test_Modelo/clk
+add wave -position end  sim:/test_Modelo/reset
+add wave -position end  sim:/test_Modelo/clkout
+add wave -position end  sim:/test_Modelo/i
 run -all
-# Count  1 clkout 0
-# Count  2 clkout 0
-# Count  3 clkout 0
-# Count  4 clkout 0
-# Count  5 clkout 0
-# Count  6 clkout 0
-# Count  7 clkout 0
-# Count  8 clkout 0
-# Count  9 clkout 0
-# Count  0 clkout 1
-# Count  1 clkout 0
-# Count  2 clkout 0
-# Count  3 clkout 0
-# Count  4 clkout 0
-# Count  5 clkout 0
+# Y = '{1, 0, 0, 0, 0, 0, 0}
+# Y = '{1, -1, 0, 0, 0, 0, 0}
+# Y = '{1, -1, -1, 0, 0, 0, 0}
+# Y = '{1, -1, -1, -1, 0, 0, 0}
+# Y = '{1, -1, -1, -1, -1, 0, 0}
+# Y = '{1, -1, -1, -1, -1, -1, 0}
+# Y = '{1, -1, -1, -1, -1, -1, -1}
+quit -sim
+# End time: 22:54:19 on May 01,2026, Elapsed time: 0:06:12
+# Errors: 0, Warnings: 2
+# Compile of modelf.sv was successful.
+# Compile of test_modelf.sv was successful.
+# Compile of Dreg.sv was successful.
+# Compile of test_counter.sv was successful.
+# Compile of modelo.sv was successful with warnings.
+# Compile of test_modelo.sv was successful.
+# 6 compiles, 0 failed with no errors.
+# Load canceled
+# Compile of modelf.sv was successful.
+# Compile of test_modelf.sv was successful.
+# Compile of Dreg.sv was successful.
+# Compile of test_counter.sv was successful.
+# Compile of modelo.sv was successful with warnings.
+# Compile of test_modelo.sv was successful.
+# Compile of modelc.sv was successful.
+# Compile of test_modelc.sv was successful.
+# 8 compiles, 0 failed with no errors.
+vsim -gui work.test_Modelc
+# vsim -gui work.test_Modelc 
+# Start time: 22:55:12 on May 01,2026
+# Loading sv_std.std
+# Loading work.test_Modelc
+# Loading work.Modelc
+# Loading work.Modelo
+# Loading work.Modelf
+# Loading work.Counter
+# Loading work.DReg
+# WARNING: No extended dataflow license exists
+add wave -position end  sim:/test_Modelc/Nb
+add wave -position end  sim:/test_Modelc/Nobs
+add wave -position end  sim:/test_Modelc/Nf
+add wave -position end  sim:/test_Modelc/Nc
+add wave -position end  sim:/test_Modelc/Nbco
+add wave -position end  sim:/test_Modelc/Nbcc
+add wave -position end  sim:/test_Modelc/i
+add wave -position end  sim:/test_Modelc/j
+add wave -position end  sim:/test_Modelc/X
+add wave -position end  sim:/test_Modelc/W
+add wave -position end  sim:/test_Modelc/Y
+add wave -position end  sim:/test_Modelc/clk
+add wave -position end  sim:/test_Modelc/reset
+add wave -position end  sim:/test_Modelc/clkoutc
+run -all
+# test modelC Y='{'{1, -1, -1, -1, -1, -1, -1}, '{1, 1, 1, 1, 1, 1, 1}, '{-1, 1, -1, -1, 1, 1, -1}}
+quit -sim
+# End time: 22:55:31 on May 01,2026, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 4
