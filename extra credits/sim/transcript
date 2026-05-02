@@ -213,3 +213,105 @@ run -all
 quit -sim
 # End time: 23:15:19 on May 01,2026, Elapsed time: 0:00:27
 # Errors: 0, Warnings: 4
+# Compile of modelf.sv was successful.
+# Compile of test_modelf.sv was successful.
+# Compile of Dreg.sv was successful.
+# Compile of test_counter.sv was successful.
+# Compile of modelo.sv was successful with warnings.
+# Compile of test_modelo.sv was successful.
+# Compile of modelc.sv was successful.
+# Compile of test_modelc.sv was successful.
+# Compile of modelct.sv was successful.
+# Compile of test_modelct.sv was successful.
+# Compile of test_train.sv was successful.
+# Compile of train.sv was successful.
+# 12 compiles, 0 failed with no errors.
+vsim -gui work.test_Train
+# vsim -gui work.test_Train 
+# Start time: 23:20:37 on May 01,2026
+# Loading sv_std.std
+# Loading work.test_Train
+# Loading work.train
+# Loading work.Modelct
+# Loading work.Modelo
+# Loading work.Modelf
+# Loading work.Counter
+# Loading work.DReg
+# WARNING: No extended dataflow license exists
+add wave -position end  sim:/test_Train/Nb
+add wave -position end  sim:/test_Train/Nobs
+add wave -position end  sim:/test_Train/Nf
+add wave -position end  sim:/test_Train/Nc
+add wave -position end  sim:/test_Train/Nbco
+add wave -position end  sim:/test_Train/Nbcc
+add wave -position end  sim:/test_Train/Nepochs
+add wave -position end  sim:/test_Train/Zero
+add wave -position end  sim:/test_Train/One
+add wave -position end  sim:/test_Train/Epoch
+add wave -position end  sim:/test_Train/clk
+add wave -position end  sim:/test_Train/reset
+add wave -position end  sim:/test_Train/enable
+add wave -position end  sim:/test_Train/X
+add wave -position end  sim:/test_Train/Y
+add wave -position end  sim:/test_Train/etashift
+add wave -position end  sim:/test_Train/W
+add wave -position end  sim:/test_Train/TotalError
+add wave -position end  sim:/test_Train/clkoutc
+add wave -position end  sim:/test_Train/clkoutt
+run -all
+# Epoch   3 clkoutc 1 clkoutt 0 
+#  W '{'{0, -5, -2, 2}, '{-2, -5, 2, 4}, '{-9, -3, -15, 11}}
+#  TotalError   7 
+# Epoch   6 clkoutc 1 clkoutt 0 
+#  W '{'{3, -4, 1, -1}, '{-2, -3, 2, 4}, '{-7, 3, -14, 9}}
+#  TotalError   7 
+# Epoch   9 clkoutc 1 clkoutt 0 
+#  W '{'{5, -7, -2, -3}, '{-3, -3, 4, 5}, '{-5, 11, -12, 7}}
+#  TotalError   6 
+# Epoch  12 clkoutc 1 clkoutt 0 
+#  W '{'{5, -7, -2, -3}, '{-3, -3, 4, 5}, '{-5, 11, -12, 7}}
+#  TotalError   5 
+# Epoch  15 clkoutc 1 clkoutt 0 
+#  W '{'{10, -3, -4, -8}, '{-7, -1, 2, 9}, '{-5, 15, -10, 7}}
+#  TotalError   3 
+# Epoch  18 clkoutc 1 clkoutt 0 
+#  W '{'{10, -3, -4, -8}, '{-7, -1, 2, 9}, '{-5, 15, -10, 7}}
+#  TotalError   3 
+# Epoch  21 clkoutc 1 clkoutt 0 
+#  W '{'{10, -3, -4, -8}, '{-8, 0, 5, 10}, '{-9, 7, -10, 11}}
+#  TotalError   6 
+# Epoch  24 clkoutc 1 clkoutt 0 
+#  W '{'{10, -3, -4, -8}, '{-8, 0, 5, 10}, '{-9, 7, -10, 11}}
+#  TotalError   2 
+# Epoch  27 clkoutc 1 clkoutt 0 
+#  W '{'{10, -3, -4, -8}, '{-8, 0, 5, 10}, '{-9, 7, -10, 11}}
+#  TotalError   2 
+# Epoch  30 clkoutc 1 clkoutt 0 
+#  W '{'{10, -3, -4, -8}, '{-8, 0, 5, 10}, '{-9, 7, -10, 11}}
+#  TotalError   3 
+# Epoch  33 clkoutc 1 clkoutt 0 
+#  W '{'{10, -3, -4, -8}, '{-8, 0, 5, 10}, '{-9, 7, -10, 11}}
+#  TotalError   3 
+# Epoch  36 clkoutc 1 clkoutt 0 
+#  W '{'{10, -3, -4, -8}, '{-12, 1, 7, 14}, '{-11, 11, -6, 13}}
+#  TotalError   1 
+# Epoch  38 clkoutc 1 clkoutt 0 
+#  W '{'{10, -3, -4, -8}, '{-12, 1, 7, 14}, '{-14, 5, -6, 16}}
+#  TotalError   2 
+# Epoch  41 clkoutc 1 clkoutt 0 
+#  W '{'{10, -3, -4, -8}, '{-12, 1, 7, 14}, '{-14, 5, -6, 16}}
+#  TotalError   1 
+# Epoch  44 clkoutc 1 clkoutt 0 
+#  W '{'{10, -3, -4, -8}, '{-12, 1, 7, 14}, '{-14, 5, -6, 16}}
+#  TotalError   1 
+# Epoch  46 clkoutc 1 clkoutt 0 
+#  W '{'{10, -3, -4, -8}, '{-12, 1, 7, 14}, '{-14, 5, -6, 16}}
+#  TotalError   2 
+# Epoch  49 clkoutc 1 clkoutt 0 
+#  W '{'{10, -3, -4, -8}, '{-12, 1, 7, 14}, '{-14, 5, -6, 16}}
+#  TotalError   1 
+# Epoch  52 clkoutc 1 clkoutt 0 
+#  W '{'{10, -3, -4, -8}, '{-12, 1, 7, 14}, '{-14, 5, -6, 16}}
+#  TotalError   0 
+# End time: 23:20:56 on May 01,2026, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 3

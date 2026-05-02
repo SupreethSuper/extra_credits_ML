@@ -11,7 +11,7 @@ cModel Technology
 dC:/Users/supre/Downloads/mc/sim
 vCounter
 Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z1 !s110 1777702484
+Z1 !s110 1777702827
 !i10b 1
 !s100 GHBVhjbYehWi@Sjbk8K@i1
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -22,13 +22,13 @@ Z4 dC:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/sim
 Z5 w1777697779
 Z6 8C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/Dreg.sv
 Z7 FC:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/Dreg.sv
-!i122 65
+!i122 75
 L0 21 15
 Z8 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z9 !s108 1777702484.000000
+Z9 !s108 1777702827.000000
 Z10 !s107 C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/Dreg.sv|
 Z11 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/Dreg.sv|
 !i113 1
@@ -48,7 +48,7 @@ R4
 R5
 R6
 R7
-!i122 65
+!i122 75
 L0 3 15
 R8
 r1
@@ -63,7 +63,7 @@ R13
 n@d@reg
 vModelc
 R0
-R1
+Z14 !s110 1777702828
 !i10b 1
 !s100 CEHCizf>c:333NZJQlZlM0
 R2
@@ -74,13 +74,13 @@ R4
 w1777701206
 8C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/modelc.sv
 FC:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/modelc.sv
-!i122 69
-Z14 L0 1 28
+!i122 79
+Z15 L0 1 28
 R8
 r1
 !s85 0
 31
-R9
+Z16 !s108 1777702828.000000
 !s107 C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/modelc.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/modelc.sv|
 !i113 1
@@ -89,7 +89,7 @@ R13
 n@modelc
 vModelct
 R0
-R1
+R14
 !i10b 1
 !s100 hzn;@GVo:?0=QYkcEn3]<3
 R2
@@ -100,13 +100,13 @@ R4
 w1777702250
 8C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/modelct.sv
 FC:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/modelct.sv
-!i122 71
+!i122 81
 L0 1 107
 R8
 r1
 !s85 0
 31
-R9
+R16
 !s107 C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/modelct.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/modelct.sv|
 !i113 1
@@ -126,8 +126,8 @@ R4
 w1777696553
 8C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/modelf.sv
 FC:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/modelf.sv
-!i122 63
-R14
+!i122 73
+R15
 R8
 r1
 !s85 0
@@ -152,7 +152,7 @@ R4
 w1777700807
 8C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/modelo.sv
 FC:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/modelo.sv
-!i122 67
+!i122 77
 L0 1 42
 R8
 r1
@@ -178,7 +178,7 @@ R4
 w1777697798
 8C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/test_counter.sv
 FC:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/test_counter.sv
-!i122 66
+!i122 76
 L0 1 23
 R8
 r1
@@ -192,7 +192,7 @@ R12
 R13
 vtest_Modelc
 R0
-R1
+R14
 !i10b 1
 !s100 SgTcVcl4Q0XlQzM6<4?X^3
 R2
@@ -203,13 +203,13 @@ R4
 w1777701225
 8C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/test_modelc.sv
 FC:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/test_modelc.sv
-!i122 70
+!i122 80
 L0 1 29
 R8
 r1
 !s85 0
 31
-R9
+R16
 !s107 C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/test_modelc.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/test_modelc.sv|
 !i113 1
@@ -218,7 +218,7 @@ R13
 ntest_@modelc
 vtest_Modelct
 R0
-!s110 1777702485
+R14
 !i10b 1
 !s100 AZfjZag2Q:D_oN6A6oham2
 R2
@@ -229,13 +229,13 @@ R4
 w1777702273
 8C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/test_modelct.sv
 FC:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/test_modelct.sv
-!i122 72
+!i122 82
 L0 1 35
 R8
 r1
 !s85 0
 31
-R9
+R16
 !s107 C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/test_modelct.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/test_modelct.sv|
 !i113 1
@@ -255,7 +255,7 @@ R4
 w1777696772
 8C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/test_modelf.sv
 FC:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/test_modelf.sv
-!i122 64
+!i122 74
 L0 1 14
 R8
 r1
@@ -281,7 +281,7 @@ R4
 w1777700303
 8C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/test_modelo.sv
 FC:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/test_modelo.sv
-!i122 68
+!i122 78
 L0 1 50
 R8
 r1
@@ -294,3 +294,54 @@ R9
 R12
 R13
 ntest_@modelo
+vtest_Train
+R0
+R14
+!i10b 1
+!s100 hgMa4Bb7Od_0M75z:PC=_2
+R2
+IMdK5KX9S8z8JI31kGAfUm2
+R3
+S1
+R4
+w1777702749
+8C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/test_train.sv
+FC:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/test_train.sv
+!i122 83
+L0 1 40
+R8
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/test_train.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/test_train.sv|
+!i113 1
+R12
+R13
+ntest_@train
+vtrain
+R0
+R14
+!i10b 1
+!s100 MDn^>gF=8JHJE7ASkl?Na2
+R2
+Ie]@Yk2BQChJPOfHbPj@Lf0
+R3
+S1
+R4
+w1777702725
+8C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/train.sv
+FC:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/train.sv
+!i122 84
+L0 1 53
+R8
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/train.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/train.sv|
+!i113 1
+R12
+R13

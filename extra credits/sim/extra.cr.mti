@@ -1,9 +1,39 @@
-{C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/test_modelf.sv} {1 {vlog -work work -sv -stats=none {C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/test_modelf.sv}
+{C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/test_counter.sv} {1 {vlog -work work -sv -stats=none {C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/test_counter.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module test_Modelf
+-- Compiling module test_counter
 
 Top level modules:
-	test_Modelf
+	test_counter
+
+} {} {}} {C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/modelf.sv} {1 {vlog -work work -sv -stats=none {C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/modelf.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Modelf
+
+Top level modules:
+	Modelf
+
+} {} {}} {C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/test_modelct.sv} {1 {vlog -work work -sv -stats=none {C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/test_modelct.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module test_Modelct
+
+Top level modules:
+	test_Modelct
+
+} {} {}} {C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/modelo.sv} {2 {vlog -work work -sv -stats=none {C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/modelo.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Modelo
+** Warning: C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/modelo.sv(6): (vlog-13314) Defaulting port 'X' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/modelo.sv(7): (vlog-13314) Defaulting port 'W' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	Modelo
+
+} {} {}} {C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/modelct.sv} {1 {vlog -work work -sv -stats=none {C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/modelct.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Modelct
+
+Top level modules:
+	Modelct
 
 } {} {}} {C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/Dreg.sv} {1 {vlog -work work -sv -stats=none {C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/Dreg.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -13,6 +43,34 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	Counter
 
+} {} {}} {C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/modelc.sv} {1 {vlog -work work -sv -stats=none {C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/modelc.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Modelc
+
+Top level modules:
+	Modelc
+
+} {} {}} {C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/test_train.sv} {1 {vlog -work work -sv -stats=none {C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/test_train.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module test_Train
+
+Top level modules:
+	test_Train
+
+} {} {}} {C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/test_modelf.sv} {1 {vlog -work work -sv -stats=none {C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/test_modelf.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module test_Modelf
+
+Top level modules:
+	test_Modelf
+
+} {} {}} {C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/train.sv} {1 {vlog -work work -sv -stats=none {C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/train.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module train
+
+Top level modules:
+	train
+
 } {} {}} {C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/test_modelo.sv} {1 {vlog -work work -sv -stats=none {C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/test_modelo.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module test_Modelo
@@ -20,18 +78,11 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	test_Modelo
 
-} {} {}} {C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/modelf.sv} {1 {vlog -work work -sv -stats=none {C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/modelf.sv}
+} {} {}} {C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/test_modelc.sv} {1 {vlog -work work -sv -stats=none {C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/test_modelc.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module Modelf
+-- Compiling module test_Modelc
 
 Top level modules:
-	Modelf
-
-} {} {}} {C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/test_counter.sv} {1 {vlog -work work -sv -stats=none {C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/test_counter.sv}
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module test_counter
-
-Top level modules:
-	test_counter
+	test_Modelc
 
 } {} {}}
