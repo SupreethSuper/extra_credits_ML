@@ -157,3 +157,59 @@ run -all
 quit -sim
 # End time: 22:55:31 on May 01,2026, Elapsed time: 0:00:19
 # Errors: 0, Warnings: 4
+# Compile of modelf.sv was successful.
+# Compile of test_modelf.sv was successful.
+# Compile of Dreg.sv was successful.
+# Compile of test_counter.sv was successful.
+# Compile of modelo.sv was successful with warnings.
+# Compile of test_modelo.sv was successful.
+# Compile of modelc.sv was successful.
+# Compile of test_modelc.sv was successful.
+# 8 compiles, 0 failed with no errors.
+# Load canceled
+# Compile of modelf.sv was successful.
+# Compile of test_modelf.sv was successful.
+# Compile of Dreg.sv was successful.
+# Compile of test_counter.sv was successful.
+# Compile of modelo.sv was successful with warnings.
+# Compile of test_modelo.sv was successful.
+# Compile of modelc.sv was successful.
+# Compile of test_modelc.sv was successful.
+# Compile of modelct.sv was successful.
+# Compile of test_modelct.sv was successful.
+# 10 compiles, 0 failed with no errors.
+vsim -gui work.test_Modelct
+# vsim -gui work.test_Modelct 
+# Start time: 23:14:52 on May 01,2026
+# Loading sv_std.std
+# Loading work.test_Modelct
+# Loading work.Modelct
+# Loading work.Modelo
+# Loading work.Modelf
+# Loading work.Counter
+# Loading work.DReg
+# WARNING: No extended dataflow license exists
+add wave -position end  sim:/test_Modelct/Nb
+add wave -position end  sim:/test_Modelct/Nobs
+add wave -position end  sim:/test_Modelct/Nf
+add wave -position end  sim:/test_Modelct/Nc
+add wave -position end  sim:/test_Modelct/Nbco
+add wave -position end  sim:/test_Modelct/Nbcc
+add wave -position end  sim:/test_Modelct/i
+add wave -position end  sim:/test_Modelct/j
+add wave -position end  sim:/test_Modelct/X
+add wave -position end  sim:/test_Modelct/W
+add wave -position end  sim:/test_Modelct/Y
+add wave -position end  sim:/test_Modelct/Ypred
+add wave -position end  sim:/test_Modelct/dW
+add wave -position end  sim:/test_Modelct/clk
+add wave -position end  sim:/test_Modelct/reset
+add wave -position end  sim:/test_Modelct/clkoutc
+add wave -position end  sim:/test_Modelct/etashift
+add wave -position end  sim:/test_Modelct/TotalError
+run -all
+# test modelCt Y '{'{1, 1, -1, -1, -1, -1, 1}, '{-1, -1, 1, 1, -1, -1, -1}, '{-1, -1, -1, -1, 1, 1, -1}} 
+#  Ypred '{'{1, -1, -1, -1, -1, -1, -1}, '{1, 1, 1, 1, 1, 1, 1}, '{-1, 1, -1, -1, 1, 1, -1}}
+quit -sim
+# End time: 23:15:19 on May 01,2026, Elapsed time: 0:00:27
+# Errors: 0, Warnings: 4
