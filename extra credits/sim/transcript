@@ -1,27 +1,40 @@
 # Compile of modelf.sv was successful.
 # Compile of test_modelf.sv was successful.
-# 2 compiles, 0 failed with no errors.
-vsim -gui work.test_Modelf
-# vsim -gui work.test_Modelf 
-# Start time: 21:40:55 on May 01,2026
+# Compile of Dreg.sv failed with 10 errors.
+# Compile of test_counter.sv failed with 4 errors.
+# 4 compiles, 2 failed with 14 errors.
+# Compile of modelf.sv was successful.
+# Compile of test_modelf.sv was successful.
+# Compile of Dreg.sv was successful.
+# Compile of test_counter.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.test_counter
+# vsim -gui work.test_counter 
+# Start time: 21:59:09 on May 01,2026
 # Loading sv_std.std
-# Loading work.test_Modelf
-# Loading work.Modelf
+# Loading work.test_counter
+# Loading work.Counter
+# Loading work.DReg
 # WARNING: No extended dataflow license exists
+add wave -position end  sim:/test_counter/Nbc
+add wave -position end  sim:/test_counter/clk
+add wave -position end  sim:/test_counter/reset
+add wave -position end  sim:/test_counter/MaxCnt
+add wave -position end  sim:/test_counter/Count
+add wave -position end  sim:/test_counter/clkout
 run -all
-# Y= 1
-add wave -position end  sim:/test_Modelf/Nb
-add wave -position end  sim:/test_Modelf/Nf
-add wave -position end  sim:/test_Modelf/X
-add wave -position end  sim:/test_Modelf/W
-add wave -position end  sim:/test_Modelf/b
-add wave -position end  sim:/test_Modelf/Y
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-run -all
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# Y= 1
-# End time: 21:42:00 on May 01,2026, Elapsed time: 0:01:05
-# Errors: 0, Warnings: 1
+# Count  1 clkout 0
+# Count  2 clkout 0
+# Count  3 clkout 0
+# Count  4 clkout 0
+# Count  5 clkout 0
+# Count  6 clkout 0
+# Count  7 clkout 0
+# Count  8 clkout 0
+# Count  9 clkout 0
+# Count  0 clkout 1
+# Count  1 clkout 0
+# Count  2 clkout 0
+# Count  3 clkout 0
+# Count  4 clkout 0
+# Count  5 clkout 0

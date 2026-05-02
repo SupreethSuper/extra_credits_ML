@@ -9,7 +9,7 @@ module DReg # (parameter Nbits=8)
 
 
 
-always ff @ (posedge clk or posedge reset)
+always_ff @ (posedge clk or posedge reset)
 if (reset)
 Q <= {Nbits{1'b0}};
 else if (enable)
@@ -28,8 +28,8 @@ output logic [Nbc-1:0] Count, output logic clkout);
 logic rst;
 logic D;
 
-DReg # (Nbc) Dl ( clk, reset | rst, enable, Count+{ {Nbc-1{1'b0} }, 1'bl}, Count);
-assign rst = (Count == MaxCnt) ? 1'bl : 1'b0; // counts 0 1 2, ... MaxCnt-1
-assign D = (Count == MaxCnt-1) ? 1'bl : 1'b0;
-DReg #(1) D2 ( clk, reset, l'bl, D, clkout) ;
+DReg # (Nbc) D1 ( clk, reset | rst, enable, Count+{ {Nbc-1{1'b0} }, 1'b1}, Count);
+assign rst = (Count == MaxCnt) ? 1'b1 : 1'b0; // counts 0 1 2, ... MaxCnt-1
+assign D = (Count == MaxCnt-1) ? 1'b1 : 1'b0;
+DReg #(1) D2 ( clk, reset, 1'b1, D, clkout) ;
 endmodule
