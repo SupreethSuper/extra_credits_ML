@@ -1,0 +1,27 @@
+# Compile of modelf.sv was successful.
+# Compile of test_modelf.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.test_Modelf
+# vsim -gui work.test_Modelf 
+# Start time: 21:40:55 on May 01,2026
+# Loading sv_std.std
+# Loading work.test_Modelf
+# Loading work.Modelf
+# WARNING: No extended dataflow license exists
+run -all
+# Y= 1
+add wave -position end  sim:/test_Modelf/Nb
+add wave -position end  sim:/test_Modelf/Nf
+add wave -position end  sim:/test_Modelf/X
+add wave -position end  sim:/test_Modelf/W
+add wave -position end  sim:/test_Modelf/b
+add wave -position end  sim:/test_Modelf/Y
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Y= 1
+# End time: 21:42:00 on May 01,2026, Elapsed time: 0:01:05
+# Errors: 0, Warnings: 1
