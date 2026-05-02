@@ -1,0 +1,4 @@
+Warning (10268): Verilog HDL information at train.sv(24): always construct contains both blocking and non-blocking assignments File: C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/train.sv Line: 24
+Warning (10268): Verilog HDL information at modelo.sv(30): always construct contains both blocking and non-blocking assignments File: C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/modelo.sv Line: 30
+Warning (10268): Verilog HDL information at modelct.sv(52): always construct contains both blocking and non-blocking assignments File: C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/modelct.sv Line: 52
+Warning (10268): Verilog HDL information at modelc.sv(16): always construct contains both blocking and non-blocking assignments File: C:/Users/supre/Documents/ML proj/extra_credits_ML/extra credits/codes/modelc.sv Line: 16
